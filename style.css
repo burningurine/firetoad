@@ -27,7 +27,7 @@ nav.links { display: flex; gap: 18px; font-size: 15px; }
 nav.links a { color: var(--muted); text-decoration: none; }
 nav.links a:hover, nav.links a[aria-current="page"] { color: var(--text); }
 
-.hero { padding: 56px 0 40px; display: grid; gap: 32px; grid-template-columns: 1.25fr 1fr; align-items: center; }
+.hero { padding-top: 56px; padding-bottom: 40px; display: grid; gap: 32px; grid-template-columns: 1.25fr 1fr; align-items: center; }
 .hero h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.08; margin: 0 0 16px; letter-spacing: -0.02em; }
 .hero h1 em { font-style: normal; color: var(--ember); }
 .hero p.lead { font-size: 19px; color: var(--muted); margin: 0 0 24px; }
