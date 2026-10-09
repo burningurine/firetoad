@@ -43,14 +43,14 @@ section h2 { font-size: 28px; margin: 0 0 8px; }
 section > .wrap > p.sub { color: var(--muted); margin: 0 0 24px; max-width: 720px; }
 .grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
-.card .e { font-size: 26px; }
-.card h3 { margin: 8px 0 6px; font-size: 18px; }
+.card { border-top: 3px solid var(--ember-d); }
+.card h3 { margin: 0 0 6px; font-size: 18px; letter-spacing: -0.01em; }
 .card p { margin: 0; color: var(--muted); font-size: 15px; }
 
 .brandstrip { display: grid; gap: 24px; grid-template-columns: 1fr 1fr; align-items: center; }
 .paper { background: #fff; color: #1f2933; border-radius: 14px; padding: 20px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35); font-size: 14px; }
 .paper .head { display: flex; gap: 14px; align-items: center; border-bottom: 2px solid #dc2626; padding-bottom: 12px; margin-bottom: 12px; }
-.paper .co { background: #0b4f8a; color: #fff; font-weight: 800; letter-spacing: 0.04em; border-radius: 6px; padding: 14px 16px; font-size: 18px; }
+.paper .co { background: #b91c1c; color: #fff; font-weight: 800; letter-spacing: 0.04em; border-radius: 6px; padding: 14px 16px; font-size: 18px; }
 .paper strong { display: block; font-size: 18px; }
 .paper small { color: #52606d; }
 .paper table { width: 100%; border-collapse: collapse; font-size: 13px; }
